@@ -12,9 +12,7 @@ import WebOpenManager
 from saucenao_api import SauceNao
 
 # sauceNao所需的資料
-# my_api_key = "15d4ceca34b800a9280e5b55118734761d19d1ea"
-# my_api_key = "ed8cc8d032c275df185175e8577f2e2b2289e6dd"
-my_api_key = "41a0ebf48ef95bbcfde6f4c42ac81c0aff5998d1"
+my_api_key = ""
 sauce = SauceNao(api_key=my_api_key)
 
 # 函式: 上傳圖片後變更按鈕的位置
